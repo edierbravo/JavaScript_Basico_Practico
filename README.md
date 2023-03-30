@@ -1,6 +1,8 @@
-# CURSO PRACTICO DE JAVASCRIPT BASICO
+# CURSO PRACTICO DE JAVASCRIPT BASICO PARTE 1
 
-En este curso vas a poner en practica los conceptos del curso de [JavaScript Basico](https://github.com/edierbra/JavaScript_Basico)
+En este curso vas a poner en practica los conceptos del curso de [JavaScript Basico](https://github.com/edierbra/JavaScript_Basico) 
+
+Estos conceptos de aplican al curso [JavaScript Basico Practico 2](https://github.com/edierbra/JavaScript_Basico_Practico2)
 
 ## Por: Edier Dario Bravo Bravo
 
