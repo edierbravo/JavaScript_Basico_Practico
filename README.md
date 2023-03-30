@@ -30,3 +30,106 @@ while(resultado != 4){
 alert("Felicitaciones!!");
 ```
 
+![prompt](https://github.com/edierbra/JavaScript_Basico_Practico/blob/master/images/prompt.png?raw=true)
+
+# Object
+
+Permite sacar las propiedades, valores y mas de un objeto
+
+[Object](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+# Leyendo HTML desde JavaScript
+
+
+Revisar estos enlaces para mas informacion: 
+
+- [document.getElement](https://www.w3schools.com/js/js_htmldom_document.asp)
+
+- [document.querySelector](https://developer.mozilla.org/es/docs/Web/API/Document/querySelector)
+
+Codigo HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion de DOM basico</title>
+</head>
+<body>
+    <h1>Manipulacion de DOM basica</h1>
+
+    <p>Esto es un parrafo</p>
+    <p class="parrafito">Esto es un parrafo con clase</p>
+    <p id="pid">Esto es un parrafo con ID</p>
+
+    <input type="text" placeholder="Escribe algo aqui">
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
+```
+
+Codigo JS: Se usa los selectores tal cual como en CSS, para esto se usa la funcion `.querySelector`
+
+```js
+const h1 = document.querySelector('h1');
+const p = document.querySelector('p');
+const parrafito = document.querySelector('.parrafito');
+const pid = document.querySelector('#pid');
+const input = document.querySelector('input');
+```
+## Escribiendo HTML desde JS
+
+# Modificar el contenido de una etiqueta
+
+**inner**
+
+```js
+h1.innerHTML= "Nuevo titulo";
+```
+
+Pero se reomienda innerText para evitar ataques
+
+```js
+h1.innerText= "Nuevo titulo";
+```
+
+**get y set Attribute y mas**
+
+```js
+h1.getAttribute(`class`); // obtiene el atributo clase
+h1.setAttribute(`class`,`titulo2`); // cambia la clase a titulo2
+```
+
+**Modificar clases**
+
+```js
+h1.classList.add(`titulo3`); // añade una clase adicional
+h1.classList.remove(`titulo2`); // elimina una clase
+```
+
+**Cambiar valor del input**
+
+```js
+input.value="grerbb";  // cambiar el valor de un input
+```
+
+**Agregar nuevos elementos**
+
+```js
+console.log(document.createElement('img'));// agrega imagen en consola
+```
+
+Pero si deseamos agregarlo a la interfaz: 
+
+```js
+const img = document.createElement('img'); // se crea la imagen
+img.setAttribute(`src`, `./images/imagen1.jpg`); // se asigna la imagen a mostar
+
+pid.appendChild(img);  // insertar imagen en otro contenedor existente, tambien se puede usa .append(img)
+```
+
