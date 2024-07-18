@@ -1,8 +1,8 @@
 # CURSO PRACTICO DE JAVASCRIPT BASICO PARTE 1
 
-En este curso vas a poner en practica los conceptos del curso de [JavaScript Basico](https://github.com/edierbra/JavaScript_Basico) 
+En este curso vas a poner en practica los conceptos del curso de [JavaScript Basico](https://github.com/edierbravo/JavaScript_Basico) 
 
-Estos conceptos de aplican al curso [JavaScript Basico Practico 2](https://github.com/edierbra/JavaScript_Basico_Practico2)
+Estos conceptos de aplican al curso [JavaScript Basico Practico 2](https://github.com/edierbravo/JavaScript_Basico_Practico2)
 
 ## Por: Edier Dario Bravo Bravo
 
@@ -32,7 +32,7 @@ while(resultado != 4){
 alert("Felicitaciones!!");
 ```
 
-![prompt](https://github.com/edierbra/JavaScript_Basico_Practico/blob/master/images/prompt.png?raw=true)
+![prompt](https://github.com/edierbravo/JavaScript_Basico_Practico/blob/master/images/prompt.png?raw=true)
 
 # Object
 
